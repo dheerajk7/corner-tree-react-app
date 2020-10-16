@@ -1,68 +1,71 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Job Search
 
-## Available Scripts
+It is a react app for mananging jobs.
 
-In the project directory, you can run:
+# Preview
 
-### `npm start`
+Link :- https://corner-tree-assignment.web.app/
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Desktop View
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### 1.Home
 
-### `npm test`
+![preview image](./assets/images/1.png)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2. Search
 
-### `npm run build`
+![preview image](./assets/images/2.png)
+![preview image](./assets/images/3.png)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3. Post Job
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+![preview image](./assets/images/4.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 4. Dashboard
 
-### `npm run eject`
+![preview image](./assets/images/5.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Various Functionality
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Searching a job based on location, pincode, skills.
+2. Creating new job Post.
+3. Dash Board.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Techstack
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### HTML, CSS, React, Node JS (API), Mongo DB
 
-## Learn More
+# API Detail :-
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### API Repository Link :- https://github.com/dheerajk7/corner-tree-assignment-api.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### API Hosted Link :- https://corner-tree-assignment.herokuapp.com/api/v1
 
-### Code Splitting
+# Instructions to install
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+1. Clone this repository from https://github.com/dheerajk7/corner-tree-react-app.git .
+2. Install NPM if you have not installed yet.
+3. Go to project directory and run these commands
 
-### Analyzing the Bundle Size
+   #### To install node Modules
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+   ```
+   npm install
+   ```
 
-### Making a Progressive Web App
+   #### To run project
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+   ```
+   npm start
+   ```
 
-### Advanced Configuration
+4. Go and check at http://localhost:3000
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+# Directory Structure
 
-### Deployment
+`/` - all react app files <br>
+`/src` - all react app code files <br>
+`/src/components`- all react component files <br>
+`/src/styles` - all CSS style files <br>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+---
