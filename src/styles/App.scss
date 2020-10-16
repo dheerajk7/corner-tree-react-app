@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  .blank-space {
+    height: 65px;
+    width: 100%;
+  }
+}
+
+@import '../styles/navbar.scss';
+@import '../styles/addjob.scss';
+@import '../styles/dashboard.scss';

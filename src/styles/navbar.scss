@@ -1,0 +1,101 @@
+// styles for navbar container
+.navbar-container {
+  background-image: linear-gradient(to right, #e32e6f, #e72b79, #f1679d);
+  height: 65px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+
+  .search-container {
+    margin-left: 20%;
+    position: relative;
+    input {
+      padding: 1%;
+      border-radius: 5px;
+      font-size: 1.2rem;
+    }
+
+    .search-item-list {
+      display: none;
+      background-color: white;
+      position: absolute;
+      top: 10px;
+      border: 1px solid grey;
+      width: 98%;
+      padding: 0;
+      left: 1px;
+
+      li {
+        list-style: none;
+        cursor: pointer;
+        border-bottom: 1px solid black;
+        padding: 5px;
+      }
+
+      li:hover {
+        background-color: #f1679d;
+        color: white;
+      }
+
+      .loading:hover {
+        cursor: default;
+        color: black;
+        background-color: white;
+      }
+    }
+    .search-input:focus ~ .search-item-list {
+      display: block;
+    }
+  }
+
+  // navbar-logo styles
+  .navbar-logo {
+    justify-self: start;
+    font-size: 2rem;
+    margin-left: 15px;
+    color: whitesmoke;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  .navbar-logo > a {
+    color: inherit;
+    text-decoration: none;
+    font-size: inherit;
+  }
+
+  // menu-icon to be hidden on bigger screens
+  .menu-icon {
+    display: none;
+    font-size: 2.8rem;
+    color: floralwhite;
+    cursor: pointer;
+  }
+
+  // navbar menu items
+  .navbar-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    width: 70vw;
+    text-align: center;
+    justify-content: end;
+    /* margin-right: 1.5rem; */
+
+    li {
+      padding: 0px 5px;
+      cursor: pointer;
+      color: white;
+    }
+    li:hover {
+      text-decoration: underline;
+    }
+  }
+}
